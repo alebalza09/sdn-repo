@@ -1,0 +1,9 @@
+version: "3"
+services:
+  my-running-app:
+    image: my-python-app
+    volumes:
+      - my-data:/usr/src/app
+volumes:
+  my-data:
+  
